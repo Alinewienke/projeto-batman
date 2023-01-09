@@ -6,6 +6,41 @@ body {
     padding: 0;
 }
 
+#logo {
+    width: 120px;
+    height: auto;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'kdam thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
 .contact-logo {
     width: 150px;
     margin: auto;
