@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-logo {
+    width: 150px;
+    margin: auto;
+    display: block;
+}
+
+.contact-container {
+    width: 20%;
+    margin: auto;
+}
+
+.contact-form {
+    background-color: red;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form {
+    color: aliceblue;
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-family: 'kdam thmor Pro', sans-serif;
+}
+
+input {
+    width: 90%;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: none;
+    padding: 5px 10px;
+    box-shadow: 5px 5px 20px rgb(49, 0, 0);
+}
+
+textarea {
+    width: 90%;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    padding: 5px 10px;
+    box-shadow: 5px 5px 20px rgb(49, 0, 0);
+}
+
+.contact-button {
+    margin: auto;
+    display: block;
+    width: 100px;
+    padding: 5px;
+    margin-top: 20px;
+    font-family: 'kdam thmor Pro', sans-serif;
+    border: none;
+}
+
+.contact-button:hover {
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
